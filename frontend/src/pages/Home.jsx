@@ -183,33 +183,33 @@ const Home = () => {
 
       {/* Hero Section */}
       <section className="relative py-32 px-6 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-blue-950/20 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-emerald-950/20 to-transparent"></div>
         {/* Animated background particles */}
         <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl -top-48 -left-48 animate-pulse"></div>
-          <div className="absolute w-96 h-96 bg-blue-500/10 rounded-full blur-3xl -bottom-48 -right-48 animate-pulse" style={{ animationDelay: '1s' }}></div>
-          <div className="absolute w-64 h-64 bg-cyan-400/5 rounded-full blur-2xl top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 animate-pulse" style={{ animationDelay: '2s' }}></div>
+          <div className="absolute w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl -top-48 -left-48 animate-pulse"></div>
+          <div className="absolute w-96 h-96 bg-amber-500/10 rounded-full blur-3xl -bottom-48 -right-48 animate-pulse" style={{ animationDelay: '1s' }}></div>
+          <div className="absolute w-64 h-64 bg-teal-400/5 rounded-full blur-2xl top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 animate-pulse" style={{ animationDelay: '2s' }}></div>
         </div>
         <div className="container mx-auto relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="mb-4 text-slate-400 animate-fade-in">East Newark, New Jersey</div>
+            <div className="mb-4 text-neutral-400 animate-fade-in">East Newark, New Jersey</div>
             <h1 className="text-6xl md:text-7xl font-bold mb-6 animate-slide-up">
-              <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-400 bg-clip-text text-transparent bg-[length:200%_auto] animate-gradient">
+              <span className="bg-gradient-to-r from-emerald-400 via-teal-400 to-amber-400 bg-clip-text text-transparent bg-[length:200%_auto] animate-gradient">
                 Anshul Rehpade
               </span>
             </h1>
-            <p className="text-2xl md:text-3xl text-slate-300 mb-8 animate-slide-up" style={{ animationDelay: '0.2s' }}>
+            <p className="text-2xl md:text-3xl text-neutral-300 mb-8 animate-slide-up" style={{ animationDelay: '0.2s' }}>
               Data Analyst & ML Engineer
             </p>
-            <p className="text-lg text-slate-400 mb-12 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: '0.4s' }}>
+            <p className="text-lg text-neutral-400 mb-12 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: '0.4s' }}>
               Passionate Data Scientist and ML Engineer with expertise in building scalable analytics solutions and intelligent systems.
               Currently pursuing MS in Data Science at Stevens Institute of Technology.
             </p>
             <div className="flex gap-4 justify-center animate-fade-in" style={{ animationDelay: '0.6s' }}>
-              <Button onClick={() => scrollToSection('projects')} size="lg" className="bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 transform hover:scale-105 transition-all duration-300">
+              <Button onClick={() => scrollToSection('projects')} size="lg" className="bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 transform hover:scale-105 transition-all duration-300">
                 View My Work
               </Button>
-              <Button onClick={() => scrollToSection('contact')} size="lg" variant="outline" className="border-slate-700 hover:bg-slate-800 transform hover:scale-105 transition-all duration-300">
+              <Button onClick={() => scrollToSection('contact')} size="lg" variant="outline" className="border-neutral-700 hover:bg-neutral-800 hover:border-emerald-500/50 transform hover:scale-105 transition-all duration-300">
                 Get In Touch
               </Button>
             </div>
