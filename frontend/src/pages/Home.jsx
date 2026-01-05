@@ -379,31 +379,31 @@ const Home = () => {
       </section>
 
       {/* Education Section */}
-      <section id="education" className="py-24 px-6 bg-slate-900/50" data-animate>
+      <section id="education" className="py-24 px-6 bg-neutral-900/50" data-animate>
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-4xl font-bold text-center mb-16 text-slate-100">
+          <h2 className="text-4xl font-bold text-center mb-16 text-neutral-100">
             Education & Certifications
           </h2>
           <div className="grid md:grid-cols-2 gap-8">
-            <Card className="bg-slate-800/50 border-slate-700">
+            <Card className="bg-neutral-800/50 border-neutral-700 hover:border-emerald-500/50 transition-all">
               <CardHeader>
                 <div className="flex items-start justify-between">
                   <div>
-                    <CardTitle className="text-2xl text-slate-100">Master of Science in Data Science</CardTitle>
-                    <CardDescription className="text-lg text-cyan-400 mt-2">Stevens Institute of Technology</CardDescription>
-                    <div className="text-slate-400 mt-2">2024 - 2026 (Expected)</div>
+                    <CardTitle className="text-2xl text-neutral-100">Master of Science in Data Science</CardTitle>
+                    <CardDescription className="text-lg text-emerald-400 mt-2">Stevens Institute of Technology</CardDescription>
+                    <div className="text-neutral-400 mt-2">2024 - 2026 (Expected)</div>
                   </div>
                   <div className="text-right">
-                    <div className="text-3xl font-bold text-cyan-400">3.63</div>
-                    <div className="text-sm text-slate-400">GPA</div>
+                    <div className="text-3xl font-bold bg-gradient-to-r from-emerald-400 to-amber-400 bg-clip-text text-transparent">3.63</div>
+                    <div className="text-sm text-neutral-400">GPA</div>
                   </div>
                 </div>
               </CardHeader>
               <CardContent>
-                <h4 className="text-sm font-semibold text-slate-300 mb-2">Key Coursework:</h4>
+                <h4 className="text-sm font-semibold text-neutral-300 mb-2">Key Coursework:</h4>
                 <div className="flex flex-wrap gap-2">
                   {['Machine Learning', 'NLP', 'Business Analytics', 'Econometrics', 'Statistical Inference'].map((course, i) => (
-                    <Badge key={i} variant="secondary" className="bg-slate-700 text-slate-200">
+                    <Badge key={i} variant="secondary" className="bg-neutral-700 text-neutral-200">
                       {course}
                     </Badge>
                   ))}
@@ -411,25 +411,25 @@ const Home = () => {
               </CardContent>
             </Card>
 
-            <Card className="bg-slate-800/50 border-slate-700">
+            <Card className="bg-neutral-800/50 border-neutral-700 hover:border-emerald-500/50 transition-all">
               <CardHeader>
                 <div className="flex items-start justify-between">
                   <div>
-                    <CardTitle className="text-2xl text-slate-100">B.Tech in Computer Engineering</CardTitle>
-                    <CardDescription className="text-lg text-cyan-400 mt-2">Ramrao Adik Institute of Technology</CardDescription>
-                    <div className="text-slate-400 mt-2">2020 - 2024</div>
+                    <CardTitle className="text-2xl text-neutral-100">B.Tech in Computer Engineering</CardTitle>
+                    <CardDescription className="text-lg text-emerald-400 mt-2">Ramrao Adik Institute of Technology</CardDescription>
+                    <div className="text-neutral-400 mt-2">2020 - 2024</div>
                   </div>
                   <div className="text-right">
-                    <div className="text-3xl font-bold text-cyan-400">3.84</div>
-                    <div className="text-sm text-slate-400">GPA</div>
+                    <div className="text-3xl font-bold bg-gradient-to-r from-emerald-400 to-amber-400 bg-clip-text text-transparent">3.84</div>
+                    <div className="text-sm text-neutral-400">GPA</div>
                   </div>
                 </div>
               </CardHeader>
               <CardContent>
-                <h4 className="text-sm font-semibold text-slate-300 mb-2">Key Coursework:</h4>
+                <h4 className="text-sm font-semibold text-neutral-300 mb-2">Key Coursework:</h4>
                 <div className="flex flex-wrap gap-2">
                   {['Data Structures', 'Algorithms', 'Database Systems', 'Software Engineering', 'AI Fundamentals'].map((course, i) => (
-                    <Badge key={i} variant="secondary" className="bg-slate-700 text-slate-200">
+                    <Badge key={i} variant="secondary" className="bg-neutral-700 text-neutral-200">
                       {course}
                     </Badge>
                   ))}
@@ -439,28 +439,28 @@ const Home = () => {
           </div>
 
           <div className="mt-12">
-            <h3 className="text-2xl font-bold text-slate-100 mb-6">Research Publications</h3>
+            <h3 className="text-2xl font-bold text-neutral-100 mb-6">Research Publications</h3>
             <div className="space-y-6">
-              <Card className="bg-slate-800/50 border-slate-700">
+              <Card className="bg-neutral-800/50 border-neutral-700 hover:border-emerald-500/50 transition-all">
                 <CardHeader>
                   <div className="flex items-start gap-4">
-                    <BookOpen className="w-6 h-6 text-cyan-400 mt-1" />
+                    <BookOpen className="w-6 h-6 text-emerald-400 mt-1" />
                     <div className="flex-1">
-                      <CardTitle className="text-xl text-slate-100">Detection of Diabetic Retinopathy Using Swish Activation Function</CardTitle>
-                      <CardDescription className="text-slate-400 mt-2">
+                      <CardTitle className="text-xl text-neutral-100">Detection of Diabetic Retinopathy Using Swish Activation Function</CardTitle>
+                      <CardDescription className="text-neutral-400 mt-2">
                         International Journal of Applied Engineering and Technology, Vol. 5 No. 4 • December 2023
                       </CardDescription>
                     </div>
                   </div>
                 </CardHeader>
               </Card>
-              <Card className="bg-slate-800/50 border-slate-700">
+              <Card className="bg-neutral-800/50 border-neutral-700 hover:border-emerald-500/50 transition-all">
                 <CardHeader>
                   <div className="flex items-start gap-4">
-                    <BookOpen className="w-6 h-6 text-cyan-400 mt-1" />
+                    <BookOpen className="w-6 h-6 text-emerald-400 mt-1" />
                     <div className="flex-1">
-                      <CardTitle className="text-xl text-slate-100">Gridwise: Dynamic Dashboard for Visualization of Renewable Energy</CardTitle>
-                      <CardDescription className="text-slate-400 mt-2">
+                      <CardTitle className="text-xl text-neutral-100">Gridwise: Dynamic Dashboard for Visualization of Renewable Energy</CardTitle>
+                      <CardDescription className="text-neutral-400 mt-2">
                         Smart Innovation, Systems and Technologies, Volume 440 • ICHCSC 2024
                       </CardDescription>
                     </div>
