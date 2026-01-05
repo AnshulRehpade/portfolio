@@ -475,41 +475,41 @@ const Home = () => {
       {/* Contact Section */}
       <section id="contact" className="py-24 px-6" data-animate>
         <div className="container mx-auto max-w-4xl">
-          <h2 className="text-4xl font-bold text-center mb-8 text-slate-100">
+          <h2 className="text-4xl font-bold text-center mb-8 text-neutral-100">
             Get In Touch
           </h2>
-          <p className="text-center text-slate-400 mb-12">
+          <p className="text-center text-neutral-400 mb-12">
             I'm always interested in discussing new opportunities, collaborations, or innovative data science projects.
           </p>
           
           <div className="grid md:grid-cols-3 gap-6 mb-12">
-            <Card className="bg-slate-800/50 border-slate-700 hover:border-cyan-500/50 transition-all hover:scale-105">
+            <Card className="bg-neutral-800/50 border-neutral-700 hover:border-emerald-500/50 transition-all hover:scale-105">
               <CardHeader className="text-center">
-                <Mail className="w-8 h-8 text-cyan-400 mx-auto mb-3" />
-                <CardTitle className="text-lg text-slate-100">Email</CardTitle>
-                <CardDescription className="text-slate-400">
-                  <a href="mailto:anshulrehpade@gmail.com" className="hover:text-cyan-400 transition-colors">
+                <Mail className="w-8 h-8 text-emerald-400 mx-auto mb-3" />
+                <CardTitle className="text-lg text-neutral-100">Email</CardTitle>
+                <CardDescription className="text-neutral-400">
+                  <a href="mailto:anshulrehpade@gmail.com" className="hover:text-emerald-400 transition-colors">
                     anshulrehpade@gmail.com
                   </a>
                 </CardDescription>
               </CardHeader>
             </Card>
-            <Card className="bg-slate-800/50 border-slate-700 hover:border-cyan-500/50 transition-all hover:scale-105">
+            <Card className="bg-neutral-800/50 border-neutral-700 hover:border-emerald-500/50 transition-all hover:scale-105">
               <CardHeader className="text-center">
-                <Phone className="w-8 h-8 text-cyan-400 mx-auto mb-3" />
-                <CardTitle className="text-lg text-slate-100">Phone</CardTitle>
-                <CardDescription className="text-slate-400">
-                  <a href="tel:973-277-0187" className="hover:text-cyan-400 transition-colors">
+                <Phone className="w-8 h-8 text-emerald-400 mx-auto mb-3" />
+                <CardTitle className="text-lg text-neutral-100">Phone</CardTitle>
+                <CardDescription className="text-neutral-400">
+                  <a href="tel:973-277-0187" className="hover:text-emerald-400 transition-colors">
                     973-277-0187
                   </a>
                 </CardDescription>
               </CardHeader>
             </Card>
-            <Card className="bg-slate-800/50 border-slate-700 hover:border-cyan-500/50 transition-all hover:scale-105">
+            <Card className="bg-neutral-800/50 border-neutral-700 hover:border-emerald-500/50 transition-all hover:scale-105">
               <CardHeader className="text-center">
-                <MapPin className="w-8 h-8 text-cyan-400 mx-auto mb-3" />
-                <CardTitle className="text-lg text-slate-100">Location</CardTitle>
-                <CardDescription className="text-slate-400">East Newark, New Jersey</CardDescription>
+                <MapPin className="w-8 h-8 text-emerald-400 mx-auto mb-3" />
+                <CardTitle className="text-lg text-neutral-100">Location</CardTitle>
+                <CardDescription className="text-neutral-400">East Newark, New Jersey</CardDescription>
               </CardHeader>
             </Card>
           </div>
@@ -518,7 +518,7 @@ const Home = () => {
             <Button
               asChild
               size="lg"
-              className="bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700"
+              className="bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700"
             >
               <a href="https://linkedin.com/in/anshul-rehpade-745763210" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="w-5 h-5 mr-2" />
@@ -529,7 +529,7 @@ const Home = () => {
               asChild
               size="lg"
               variant="outline"
-              className="border-slate-700 hover:bg-slate-800"
+              className="border-neutral-700 hover:bg-neutral-800 hover:border-emerald-500/50"
             >
               <a href="https://github.com/AnshulRehpade" target="_blank" rel="noopener noreferrer">
                 <Github className="w-5 h-5 mr-2" />
@@ -541,9 +541,9 @@ const Home = () => {
       </section>
 
       {/* Footer */}
-      <footer className="py-8 px-6 bg-slate-900 border-t border-slate-800">
+      <footer className="py-8 px-6 bg-neutral-900 border-t border-neutral-800">
         <div className="container mx-auto text-center">
-          <p className="text-slate-400">
+          <p className="text-neutral-400">
             © 2025 Anshul Rehpade. All rights reserved.
           </p>
         </div>
