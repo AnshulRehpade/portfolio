@@ -218,7 +218,7 @@ const Home = () => {
       </section>
 
       {/* Stats Section */}
-      <section className="py-16 px-6 bg-slate-900/50">
+      <section className="py-16 px-6 bg-neutral-900/50 border-y border-neutral-800">
         <div className="container mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
             {[
@@ -228,8 +228,8 @@ const Home = () => {
               { number: '2+', label: 'Research Publications' }
             ].map((stat, index) => (
               <div key={index} className="text-center">
-                <div className="text-4xl font-bold text-cyan-400 mb-2">{stat.number}</div>
-                <div className="text-slate-400">{stat.label}</div>
+                <div className="text-4xl font-bold text-transparent bg-gradient-to-r from-emerald-400 to-amber-400 bg-clip-text mb-2">{stat.number}</div>
+                <div className="text-neutral-400">{stat.label}</div>
               </div>
             ))}
           </div>
