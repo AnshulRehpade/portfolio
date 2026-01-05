@@ -8,7 +8,6 @@ import '../styles/animations.css';
 
 const Home = () => {
   const [activeFilter, setActiveFilter] = useState('All');
-  const [isVisible, setIsVisible] = useState({});
 
   useEffect(() => {
     const observer = new IntersectionObserver(
