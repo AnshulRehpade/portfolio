@@ -336,20 +336,21 @@ const Home = () => {
           {/* Projects Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredProjects.map((project) => (
-              <Card key={project.id} className="bg-slate-800/50 border-slate-700 overflow-hidden group hover:border-cyan-500/50 transition-all hover:scale-105">
+              <Card key={project.id} className="bg-slate-800/50 border-slate-700 overflow-hidden group hover:border-cyan-500/50 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-cyan-500/20">
                 <div className="relative h-48 overflow-hidden">
                   <img 
                     src={project.image} 
                     alt={project.title}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   />
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute top-4 right-4">
-                    <Badge className="bg-cyan-600">{project.category}</Badge>
+                    <Badge className="bg-cyan-600 shadow-lg shadow-cyan-500/50">{project.category}</Badge>
                   </div>
                 </div>
                 <CardHeader>
                   <div className="text-sm text-slate-500 mb-2">{project.date}</div>
-                  <CardTitle className="text-xl text-slate-100 mb-2">{project.title}</CardTitle>
+                  <CardTitle className="text-xl text-slate-100 mb-2 group-hover:text-cyan-400 transition-colors duration-300">{project.title}</CardTitle>
                   <CardDescription className="text-slate-400">{project.description}</CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -364,7 +365,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-wrap gap-2">
                       {project.tags.map((tag, i) => (
-                        <Badge key={i} variant="outline" className="border-slate-600 text-slate-300">
+                        <Badge key={i} variant="outline" className="border-slate-600 text-slate-300 hover:border-cyan-500 hover:text-cyan-400 transition-colors duration-300">
                           {tag}
                         </Badge>
                       ))}
