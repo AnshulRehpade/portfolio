@@ -151,30 +151,30 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-neutral-950 via-stone-900 to-neutral-950">
       {/* Header */}
-      <header className="sticky top-0 z-50 backdrop-blur-md bg-slate-950/80 border-b border-slate-800">
+      <header className="sticky top-0 z-50 backdrop-blur-md bg-neutral-950/80 border-b border-neutral-800">
         <nav className="container mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
-            <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
+            <div className="text-2xl font-bold bg-gradient-to-r from-emerald-400 to-amber-400 bg-clip-text text-transparent">
               AR
             </div>
             <div className="hidden md:flex space-x-8">
-              <button onClick={() => scrollToSection('about')} className="text-slate-300 hover:text-cyan-400 transition-colors">
+              <button onClick={() => scrollToSection('about')} className="text-neutral-300 hover:text-emerald-400 transition-colors">
                 About
               </button>
-              <button onClick={() => scrollToSection('skills')} className="text-slate-300 hover:text-cyan-400 transition-colors">
+              <button onClick={() => scrollToSection('skills')} className="text-neutral-300 hover:text-emerald-400 transition-colors">
                 Skills
               </button>
-              <button onClick={() => scrollToSection('projects')} className="text-slate-300 hover:text-cyan-400 transition-colors">
+              <button onClick={() => scrollToSection('projects')} className="text-neutral-300 hover:text-emerald-400 transition-colors">
                 Projects
               </button>
-              <button onClick={() => scrollToSection('education')} className="text-slate-300 hover:text-cyan-400 transition-colors">
+              <button onClick={() => scrollToSection('education')} className="text-neutral-300 hover:text-emerald-400 transition-colors">
                 Education
               </button>
-              <button onClick={() => scrollToSection('contact')} className="text-slate-300 hover:text-cyan-400 transition-colors">
+              <button onClick={() => scrollToSection('contact')} className="text-neutral-300 hover:text-emerald-400 transition-colors">
                 Contact
               </button>
             </div>
-            <Button onClick={() => scrollToSection('contact')} className="bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700">
+            <Button onClick={() => scrollToSection('contact')} className="bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700">
               Get In Touch
             </Button>
           </div>
