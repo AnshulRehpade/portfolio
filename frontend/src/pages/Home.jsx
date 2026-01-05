@@ -239,18 +239,18 @@ const Home = () => {
       {/* About Section */}
       <section id="about" className="py-24 px-6" data-animate>
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-4xl font-bold text-center mb-16 text-slate-100">
+          <h2 className="text-4xl font-bold text-center mb-16 text-neutral-100">
             About Me
           </h2>
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <h3 className="text-3xl font-bold text-cyan-400">Transforming Data Into Actionable Insights</h3>
-              <p className="text-slate-300 leading-relaxed">
+              <h3 className="text-3xl font-bold bg-gradient-to-r from-emerald-400 to-amber-400 bg-clip-text text-transparent">Transforming Data Into Actionable Insights</h3>
+              <p className="text-neutral-300 leading-relaxed">
                 I'm a passionate Data Scientist and ML Engineer currently pursuing my Master's in Data Science at Stevens Institute of Technology.
                 With a strong foundation in computer engineering and a specialized focus on data science, I bring a unique blend of technical expertise
                 and analytical thinking to every project.
               </p>
-              <p className="text-slate-300 leading-relaxed">
+              <p className="text-neutral-300 leading-relaxed">
                 My expertise spans across data analytics, machine learning, and artificial intelligence, with hands-on experience in building scalable
                 solutions that drive business value. I've successfully collaborated with industry partners, published research in peer-reviewed journals,
                 and consistently delivered projects that exceed expectations.
@@ -263,11 +263,11 @@ const Home = () => {
                 { icon: <BookOpen className="w-6 h-6" />, title: 'Cloud & Deployment', desc: 'AWS infrastructure and scalable solutions' },
                 { icon: <GraduationCap className="w-6 h-6" />, title: 'Research & Innovation', desc: 'Published research and AI applications' }
               ].map((item, index) => (
-                <Card key={index} className="bg-slate-800/50 border-slate-700 hover:bg-slate-800 transition-all hover:scale-105">
+                <Card key={index} className="bg-neutral-800/50 border-neutral-700 hover:bg-neutral-800 hover:border-emerald-500/50 transition-all hover:scale-105">
                   <CardHeader>
-                    <div className="text-cyan-400 mb-2">{item.icon}</div>
-                    <CardTitle className="text-lg text-slate-100">{item.title}</CardTitle>
-                    <CardDescription className="text-slate-400">{item.desc}</CardDescription>
+                    <div className="text-emerald-400 mb-2">{item.icon}</div>
+                    <CardTitle className="text-lg text-neutral-100">{item.title}</CardTitle>
+                    <CardDescription className="text-neutral-400">{item.desc}</CardDescription>
                   </CardHeader>
                 </Card>
               ))}
