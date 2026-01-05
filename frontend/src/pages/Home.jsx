@@ -277,25 +277,25 @@ const Home = () => {
       </section>
 
       {/* Skills Section */}
-      <section id="skills" className="py-24 px-6 bg-slate-900/50" data-animate>
+      <section id="skills" className="py-24 px-6 bg-neutral-900/50" data-animate>
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-4xl font-bold text-center mb-16 text-slate-100">
+          <h2 className="text-4xl font-bold text-center mb-16 text-neutral-100">
             Technical Skills
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { title: 'Programming Languages', items: skills.programming, color: 'from-blue-500 to-cyan-500' },
-              { title: 'Data Analytics & BI', items: skills.analytics, color: 'from-purple-500 to-pink-500' },
-              { title: 'Machine Learning & AI', items: skills.ml, color: 'from-green-500 to-emerald-500' },
-              { title: 'Cloud & Infrastructure', items: skills.cloud, color: 'from-orange-500 to-red-500' },
-              { title: 'Tools & Frameworks', items: skills.tools, color: 'from-indigo-500 to-purple-500' }
+              { title: 'Programming Languages', items: skills.programming, color: 'from-emerald-500 to-teal-500' },
+              { title: 'Data Analytics & BI', items: skills.analytics, color: 'from-amber-500 to-orange-500' },
+              { title: 'Machine Learning & AI', items: skills.ml, color: 'from-emerald-500 to-lime-500' },
+              { title: 'Cloud & Infrastructure', items: skills.cloud, color: 'from-teal-500 to-cyan-500' },
+              { title: 'Tools & Frameworks', items: skills.tools, color: 'from-amber-500 to-yellow-500' }
             ].map((category, index) => (
-              <Card key={index} className="bg-slate-800/50 border-slate-700 hover:border-slate-600 transition-all">
+              <Card key={index} className="bg-neutral-800/50 border-neutral-700 hover:border-neutral-600 transition-all">
                 <CardHeader>
-                  <CardTitle className="text-xl text-slate-100 mb-4">{category.title}</CardTitle>
+                  <CardTitle className="text-xl text-neutral-100 mb-4">{category.title}</CardTitle>
                   <div className="flex flex-wrap gap-2">
                     {category.items.map((skill, i) => (
-                      <Badge key={i} variant="secondary" className="bg-slate-700 hover:bg-slate-600 text-slate-200">
+                      <Badge key={i} variant="secondary" className="bg-neutral-700 hover:bg-neutral-600 text-neutral-200">
                         {skill}
                       </Badge>
                     ))}
