@@ -5,7 +5,8 @@ import Home from "./pages/Home";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      {/* The fix is right here 👇 */}
+      <BrowserRouter basename="/portfolio">
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
